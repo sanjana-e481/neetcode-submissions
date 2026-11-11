@@ -1,0 +1,7 @@
+class Solution:
+    def hasDuplicate(self, nums: List[int]) -> bool:
+        newset = set(nums)
+
+        if len(newset) == len(list(nums)) :
+            return False
+        return True
